@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul {
+    display: inline-flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 13px;
+    margin-left: 87px;
+}
+
+header nav {
+    text-align: center;
+    margin-left: -95px;
+
+}
+
+header nav ul li a:hover {
+    background-color: rgb(73, 29, 114);
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    background-color: rgb(160, 160, 160);
+}
+
+.corpo {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(205, 205, 205);
+    height: 100%;
+
+
+}
+
+.lado-esquerdo img {
+    display: flex;
+    width: 300px;
+}
+
+.foto img {
+
+    width: 200px;
+    height: 250px;
+
+}
+
+.foto {
+    width: 200px;
+
+    float: left;
+    height: 250px;
+
+}
+
+h1 {
+
+    text-align: center;
+    position: relative;
+
+    width: 100%;
+}
+
+h2 {
+    text-align: left;
+    padding: 15px;
+}
+
+.texto_hobbies {
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.banner-1 img {
+    width: 1100px;
+}
+
+.corpo-2 {
+    padding: 19px;
+}
+
+.texto {
+    width: 100%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.parte-1 {
+    display: inline-flex;
+}
+
+.h2-programador-web {
+
+    width: 100%;
+    display: inline-flex;
+}
+
+.grid_imagens-topo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: inline-grid;
+    padding: 0;
+    margin: 0;
+}
+
+.grid_imagens-topo img {
+    width: 547px;
+    padding: 0;
+    margin: 0;
+}
+
+.ajuste {
+    padding: 15px;
+}
+
+.grid_texto-hobbies {
+    display: grid;
+    grid-template-columns: 65% 35%;
+
+}
+
+.grid_texto-hobbies img {
+    width: 300px;
+}
+
+
+
+.grid-redes-sociais {
+
+    display: inline-flex;
+    width: 62.5%;
+    margin-left: 37.5%;
+}
+
+.grid-redes {
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.grid-redes a img {
+    width: 30px;
+
+    border-radius: 10px;
+
+}
+
+.copy {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+footer {
+    background-color: rgb(96, 47, 136);
+    width: 100%;
+
+
+}
+
+.grid-skils {
+    display: inline-flex;
+    grid-template-columns: 60% 40%;
+}
+
+.img-skils {
+    width: 50%;
+    height: 200px;
+}
+
+.skils-texto {
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.espaco {
+    padding: 15px;
+}
+
+.grid-redes-contato a img {
+    width: 50px;
+
+    border-radius: 10px;
+
+}
+
+.grid-redes-contato {
+    padding: 25px;
+    text-align: center;
+
+
+}
+
+.grid-contato {
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.email p {
+    text-align: center;
+    padding: 25px;
+}
+
+.main-contato {
+    padding: 250px 20px;
+}
+
+.grid-portifolio {
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.img-portifolio img {
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.corpo-portifolio {
+    text-align: center;
+}
+
+.corpo-portifolio p {
+    padding: 25px;
+
+}
+
+.corpo-portifolio h2 {
+    margin-left: 15px;
+}
+
+.texto-portifolio {
+
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+
+}
+
+.grid-portifolio-algoritmos{
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.grid-portifolio-web{
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+}
